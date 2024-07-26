@@ -36,6 +36,7 @@ class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testMonthMinimum() {
         StatsService service = new StatsService();
@@ -46,6 +47,7 @@ class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testMonthBellowAverage() {
         StatsService service = new StatsService();
@@ -56,6 +58,7 @@ class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testMonthBAboveAverage() {
         StatsService service = new StatsService();
